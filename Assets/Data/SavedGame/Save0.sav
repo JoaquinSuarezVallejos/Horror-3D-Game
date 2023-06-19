@@ -1,0 +1,5520 @@
+{
+  "scene": "Showcase",
+  "levelName": "Showcase",
+  "levelNameKey": "",
+  "dateTime": "2023-01-06 23:51:25",
+  "playerData": {
+    "playerPosition": {
+      "x": 56.17236,
+      "y": 1.08,
+      "z": 66.34119,
+      "normalized": {
+        "x": 0.6461438,
+        "y": 0.0124231083,
+        "z": 0.7631146,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 86.93477,
+      "sqrMagnitude": 7557.65332
+    },
+    "cameraRotation": {
+      "x": 216.5976,
+      "y": -7.68819141,
+      "normalized": {
+        "x": 0.9993707,
+        "y": -0.0354729369,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.00000012
+      },
+      "magnitude": 216.734,
+      "sqrMagnitude": 46973.625
+    },
+    "characterState": 0,
+    "playerHealth": 54.2059937
+  },
+  "itemSwitcherData": {
+    "switcherActiveItem": 3,
+    "switcherWeaponItem": 3,
+    "switcher_item_flashlight": {
+      "FlashlightItem": {
+        "batteryPercentage": 100.0
+      }
+    },
+    "switcher_item_lantern": {
+      "LanternItem": {
+        "lightPercentage": 100.0,
+        "lightIntensity": 1.0,
+        "flameAlpha": 0.0
+      }
+    },
+    "switcher_item_candle": {
+      "CandleItem": {
+        "candleScale": 0.00113
+      }
+    },
+    "switcher_item_pistol": {
+      "WeaponController": {
+        "bulletsInMag": 7,
+        "uiShown": true
+      }
+    },
+    "switcher_item_shotgun": {
+      "WeaponController": {
+        "bulletsInMag": 7,
+        "uiShown": false
+      }
+    }
+  },
+  "inventoryData": {
+    "inv_slots_count": 15,
+    "slotsData": {
+      "inv_slot_0": {
+        "slotID": 0,
+        "itemID": 30,
+        "itemAmount": 1,
+        "itemData": {
+          "data": {
+            "CanUse": true,
+            "CanCombine": true
+          }
+        }
+      },
+      "inv_slot_1": {
+        "slotID": 1,
+        "itemID": 36,
+        "itemAmount": 7,
+        "itemData": {
+          "data": {
+            "object_path": "Level/ShowcaseObjects/Table_Weapons/Shotgun",
+            "object_scene": "Showcase",
+            "CanUse": true,
+            "CanCombine": true
+          }
+        }
+      },
+      "inv_slot_2": {
+        "slotID": 2,
+        "itemID": 37,
+        "itemAmount": 1,
+        "itemData": {
+          "data": {
+            "object_path": "Level/ShowcaseObjects/Table_Weapons/ShotgunAmmo",
+            "object_scene": "Showcase",
+            "CanUse": true,
+            "CanCombine": true
+          }
+        }
+      },
+      "inv_slot_3": {
+        "slotID": 3,
+        "itemID": 29,
+        "itemAmount": 7,
+        "itemData": {
+          "data": {
+            "object_path": "Level/ShowcaseObjects/Table_Weapons/IA_Pistol",
+            "object_scene": "Showcase",
+            "CanUse": true,
+            "CanCombine": true
+          }
+        }
+      },
+      "inv_slot_4": {
+        "slotID": 4,
+        "itemID": 25,
+        "itemAmount": 4,
+        "itemData": {
+          "data": {
+            "object_path": "Level/ShowcaseObjects/Table_Weapons/PistolAmmo",
+            "object_scene": "Showcase",
+            "CanUse": true,
+            "CanCombine": true
+          }
+        }
+      },
+      "inv_slot_5": "null",
+      "inv_slot_6": {
+        "slotID": 6,
+        "itemID": 10,
+        "itemAmount": 1,
+        "itemData": {
+          "data": {
+            "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_FirstAidKit",
+            "object_scene": "Showcase",
+            "CanUse": true,
+            "CanCombine": true
+          }
+        }
+      },
+      "inv_slot_7": {
+        "slotID": 7,
+        "itemID": 18,
+        "itemAmount": 1,
+        "itemData": {
+          "data": {
+            "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Medicine",
+            "object_scene": "Showcase",
+            "CanUse": true,
+            "CanCombine": true
+          }
+        }
+      },
+      "inv_slot_8": "null",
+      "inv_slot_9": {
+        "slotID": 9,
+        "itemID": 3,
+        "itemAmount": 1,
+        "itemData": {
+          "data": {
+            "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Pashtete Conserve",
+            "object_scene": "Showcase",
+            "CanUse": true,
+            "CanCombine": true
+          }
+        }
+      },
+      "inv_slot_10": {
+        "slotID": 10,
+        "itemID": 4,
+        "itemAmount": 1,
+        "itemData": {
+          "data": {
+            "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Fish Conserve",
+            "object_scene": "Showcase",
+            "CanUse": true,
+            "CanCombine": true
+          }
+        }
+      },
+      "inv_slot_11": "null",
+      "inv_slot_12": "null",
+      "inv_slot_13": "null",
+      "inv_slot_14": "null"
+    },
+    "shortcutsData": {
+      "shortcut_0": {
+        "itemID": 30,
+        "shortcutKey": "UseItem1"
+      },
+      "shortcut_1": {
+        "itemID": 36,
+        "shortcutKey": "UseItem2"
+      },
+      "shortcut_3": {
+        "itemID": 29,
+        "shortcutKey": "UseItem3"
+      }
+    }
+  },
+  "objectivesData": {
+    "activeObjectives": {
+      "0": {
+        "completion": 1,
+        "isCompleted": true
+      },
+      "1": {
+        "completion": 1,
+        "isCompleted": true
+      },
+      "2": {
+        "completion": 3,
+        "isCompleted": true
+      },
+      "3": {
+        "completion": 1,
+        "isCompleted": true
+      },
+      "5": {
+        "completion": 1,
+        "isCompleted": true
+      },
+      "4": {
+        "completion": 1,
+        "isCompleted": true
+      }
+    },
+    "touchedObjectives": {}
+  },
+  "saveablesData": {
+    "InteractiveItem_9d7e20c7dd3749e885aa062e764f99a1": {
+      "position": {
+        "x": 3.10895562,
+        "y": 1.229702,
+        "z": 12.94998,
+        "normalized": {
+          "x": 0.232452348,
+          "y": 0.09194313,
+          "z": 0.9682522,
+          "normalized": {
+            "x": 0.232452363,
+            "y": 0.09194314,
+            "z": 0.968252242,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 13.3745937,
+        "sqrMagnitude": 178.879745
+      },
+      "rotation": {
+        "x": 9.590376E-06,
+        "y": 330.0,
+        "z": -0.000199274407,
+        "normalized": {
+          "x": 2.9061745E-08,
+          "y": 1.0,
+          "z": -6.03861849E-07,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 330.0,
+        "sqrMagnitude": 108900.0
+      },
+      "inv_id": 26,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Flashlight/IA_Flashlight",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_6984703873df4671aea1d714345ef12b": {
+      "position": {
+        "x": 3.51446867,
+        "y": 1.23982465,
+        "z": 12.8858948,
+        "normalized": {
+          "x": 0.262000382,
+          "y": 0.0924277753,
+          "z": 0.9606315,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 13.4139833,
+        "sqrMagnitude": 179.934937
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 180.026672,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.4471606,
+          "y": 0.8944537,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 201.269974,
+        "sqrMagnitude": 40509.6
+      },
+      "inv_id": 21,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Flashlight/IR_Battery01",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_d326911d139a471b87d6917c3dca67e0": {
+      "position": {
+        "x": 3.614039,
+        "y": 1.2398349,
+        "z": 12.885994,
+        "normalized": {
+          "x": 0.2688915,
+          "y": 0.09224612,
+          "z": 0.9587429,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 13.44051,
+        "sqrMagnitude": 180.647308
+      },
+      "rotation": {
+        "x": 89.960434,
+        "y": 180.043686,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.4469695,
+          "y": 0.8945492,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 201.2675,
+        "sqrMagnitude": 40508.61
+      },
+      "inv_id": 21,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Flashlight/IR_Battery01 (1)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_ac01cdc9bfc143bebc48740efa90df8e": {
+      "position": {
+        "x": 3.71399927,
+        "y": 1.23982465,
+        "z": 12.8859987,
+        "normalized": {
+          "x": 0.275770128,
+          "y": 0.0920588747,
+          "z": 0.9568051,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 13.4677362,
+        "sqrMagnitude": 181.379913
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 180.000244,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.4472131,
+          "y": 0.8944274,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 201.246338,
+        "sqrMagnitude": 40500.09
+      },
+      "inv_id": 21,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Flashlight/IR_Battery01 (2)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_b68ea54320924c5c814325401df0c493": {
+      "position": {
+        "x": 3.81398463,
+        "y": 1.23983359,
+        "z": 12.8860416,
+        "normalized": {
+          "x": 0.282607526,
+          "y": 0.09186883,
+          "z": 0.954826236,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 13.4956932,
+        "sqrMagnitude": 182.133728
+      },
+      "rotation": {
+        "x": 89.9557648,
+        "y": 179.980713,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.447076052,
+          "y": 0.8944959,
+          "z": 0.0,
+          "normalized": {
+            "x": 0.447076082,
+            "y": 0.894495964,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 201.209091,
+        "sqrMagnitude": 40485.0977
+      },
+      "inv_id": 21,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Flashlight/IR_Battery01 (3)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_28665be300924048835fafd9fe7696c5": {
+      "position": {
+        "x": 3.92399931,
+        "y": 1.23982465,
+        "z": 12.8859978,
+        "normalized": {
+          "x": 0.29008317,
+          "y": 0.09165452,
+          "z": 0.9526023,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 13.527153,
+        "sqrMagnitude": 182.983871
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 180.000168,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.447213262,
+          "y": 0.894427359,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 201.246262,
+        "sqrMagnitude": 40500.06
+      },
+      "inv_id": 21,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Flashlight/IR_Battery01 (4)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_afb49dd549ac4d5eb852e4f0d46e1a61": {
+      "position": {
+        "x": 4.03399944,
+        "y": 1.23982465,
+        "z": 12.8859968,
+        "normalized": {
+          "x": 0.297504216,
+          "y": 0.0914360657,
+          "z": 0.950331867,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 13.55947,
+        "sqrMagnitude": 183.859238
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 180.000183,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.447213233,
+          "y": 0.8944274,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 201.246277,
+        "sqrMagnitude": 40500.0664
+      },
+      "inv_id": 21,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Flashlight/IR_Battery01 (5)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_c57d980ad950491e8743b4253ea49269": {
+      "position": {
+        "x": 6.40709734,
+        "y": 1.39244115,
+        "z": 12.9269056,
+        "normalized": {
+          "x": 0.442032069,
+          "y": 0.0960659161,
+          "z": 0.8918402,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 14.4946432,
+        "sqrMagnitude": 210.094681
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 179.998947,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.8320518,
+          "y": 0.554698,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 324.499023,
+        "sqrMagnitude": 105299.617
+      },
+      "inv_id": 27,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Lantern/IA_Lantern",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_482f1805cec948529c42a787589fdd2a": {
+      "position": {
+        "x": 6.95917225,
+        "y": 1.26600027,
+        "z": 12.899066,
+        "normalized": {
+          "x": 0.4730534,
+          "y": 0.08605704,
+          "z": 0.8768208,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 14.7111769,
+        "sqrMagnitude": 216.418732
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 194.997986,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.8106821,
+          "y": 0.5854866,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 333.052856,
+        "sqrMagnitude": 110924.211
+      },
+      "inv_id": 22,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Lantern/IC_PetrolOilBottle",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_ce9c7032dde24b8ebe7d1ab7cdb9d34d": {
+      "position": {
+        "x": 7.19900227,
+        "y": 1.26600039,
+        "z": 12.8489962,
+        "normalized": {
+          "x": 0.4869918,
+          "y": 0.08564129,
+          "z": 0.8691976,
+          "normalized": {
+            "x": 0.486991823,
+            "y": 0.0856412947,
+            "z": 0.869197667,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 14.7825947,
+        "sqrMagnitude": 218.525085
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 194.997986,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.8106821,
+          "y": 0.5854866,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 333.052856,
+        "sqrMagnitude": 110924.211
+      },
+      "inv_id": 22,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Lantern/IC_PetrolOilBottle (1)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_48aca8372c064ea1a77278a943c20a20": {
+      "position": {
+        "x": 7.038999,
+        "y": 1.26600027,
+        "z": 12.7389946,
+        "normalized": {
+          "x": 0.481815636,
+          "y": 0.0866570249,
+          "z": 0.8719772,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 14.6093206,
+        "sqrMagnitude": 213.432251
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 224.997772,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.7682244,
+          "y": 0.640180647,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 351.4598,
+        "sqrMagnitude": 123524.0
+      },
+      "inv_id": 22,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Lantern/IC_PetrolOilBottle (2)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_ab2a894e071d4ce6b3c0fb40df4c50c1": {
+      "position": {
+        "x": 10.9929991,
+        "y": 1.18521714,
+        "z": 12.8419971,
+        "normalized": {
+          "x": 0.648706734,
+          "y": 0.06994073,
+          "z": 0.7578178,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 16.946022,
+        "sqrMagnitude": 287.167664
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "inv_id": 28,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "Value": "100",
+          "object_path": "Level/ShowcaseObjects/Table_Candle/IA_Candle",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_4b32853385d94df482947d7884fe547f": {
+      "position": {
+        "x": 10.0308886,
+        "y": 1.21224582,
+        "z": 12.8593531,
+        "normalized": {
+          "x": 0.6133624,
+          "y": 0.07412563,
+          "z": 0.7863155,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 16.3539352,
+        "sqrMagnitude": 267.451233
+      },
+      "rotation": {
+        "x": 0.03160459,
+        "y": 0.0005818983,
+        "z": 359.987671,
+        "normalized": {
+          "x": 8.779354E-05,
+          "y": 1.61643959E-06,
+          "z": 1.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 359.987671,
+        "sqrMagnitude": 129591.125
+      },
+      "inv_id": 23,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "Value": "5",
+          "object_path": "Level/ShowcaseObjects/Table_Candle/IC_Lighter",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_aaee37c2927647abaf6a7fbc7d9727ed": {
+      "position": {
+        "x": 11.2329988,
+        "y": 1.18521714,
+        "z": 12.8419952,
+        "normalized": {
+          "x": 0.656797349,
+          "y": 0.0693000555,
+          "z": 0.75087595,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 17.1026859,
+        "sqrMagnitude": 292.501831
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "inv_id": 28,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "Value": "100",
+          "object_path": "Level/ShowcaseObjects/Table_Candle/IA_Candle (1)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_b11b50dcb1704f1daaa5b667c3cbca86": {
+      "position": {
+        "x": 9.784007,
+        "y": 1.21224582,
+        "z": 12.859024,
+        "normalized": {
+          "x": 0.603823543,
+          "y": 0.07481419,
+          "z": 0.793599367,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 16.20342,
+        "sqrMagnitude": 262.550842
+      },
+      "rotation": {
+        "x": 0.0313124172,
+        "y": 0.0008371776,
+        "z": 359.987671,
+        "normalized": {
+          "x": 8.698191E-05,
+          "y": 2.325573E-06,
+          "z": 1.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 359.987671,
+        "sqrMagnitude": 129591.125
+      },
+      "inv_id": 23,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "Value": "1",
+          "object_path": "Level/ShowcaseObjects/Table_Candle/IC_Lighter",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_89272f4a14cd485582404ebc56240176": {
+      "position": {
+        "x": 13.9969215,
+        "y": 1.21361518,
+        "z": 12.95681,
+        "normalized": {
+          "x": 0.732365966,
+          "y": 0.06350042,
+          "z": 0.6779438,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 19.1119232,
+        "sqrMagnitude": 365.2656
+      },
+      "rotation": {
+        "x": 358.879578,
+        "y": 179.985748,
+        "z": 180.105362,
+        "normalized": {
+          "x": 0.815577745,
+          "y": 0.4090296,
+          "z": 0.40930143,
+          "normalized": {
+            "x": 0.8155778,
+            "y": 0.409029633,
+            "z": 0.40930146,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 440.0311,
+        "sqrMagnitude": 193627.359
+      },
+      "inv_id": 30,
+      "inv_amount": 1,
+      "weapon_id": 4,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Axe/IA_Axe",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_efe47d1492fb411bb2defaab91d11c04": {
+      "position": {
+        "x": 18.0338287,
+        "y": 1.20510364,
+        "z": 12.7958136,
+        "normalized": {
+          "x": 0.814349651,
+          "y": 0.0544185974,
+          "z": 0.577817738,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 22.14507,
+        "sqrMagnitude": 490.404083
+      },
+      "rotation": {
+        "x": 5.89103838E-05,
+        "y": 15.0000429,
+        "z": 269.999878,
+        "normalized": {
+          "x": 2.17850769E-07,
+          "y": 0.0554702021,
+          "z": 0.998460352,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.416229,
+        "sqrMagnitude": 73124.94
+      },
+      "inv_id": 29,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Weapons/IA_Pistol",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_2311cf7bea3f4af4a22afe46d565a64f": {
+      "position": {
+        "x": 16.9045143,
+        "y": 1.21212149,
+        "z": 12.9827042,
+        "normalized": {
+          "x": 0.791815341,
+          "y": 0.0567763336,
+          "z": 0.6081159,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 21.349062,
+        "sqrMagnitude": 455.78244
+      },
+      "rotation": {
+        "x": 5.122642E-06,
+        "y": 285.000061,
+        "z": 269.999847,
+        "normalized": {
+          "x": 1.30484077E-08,
+          "y": 0.7259529,
+          "z": 0.6877443,
+          "normalized": {
+            "x": 1.30484086E-08,
+            "y": 0.725953,
+            "z": 0.6877444,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 392.587524,
+        "sqrMagnitude": 154124.953
+      },
+      "inv_id": 36,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Weapons/Shotgun",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_ba5973ff2e6143ed98ed16c7464268a0": {
+      "position": {
+        "x": 16.5851116,
+        "y": 1.18521714,
+        "z": 12.7423382,
+        "normalized": {
+          "x": 0.7917104,
+          "y": 0.0565777756,
+          "z": 0.608270943,
+          "normalized": {
+            "x": 0.791710436,
+            "y": 0.05657778,
+            "z": 0.608271,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 20.9484577,
+        "sqrMagnitude": 438.83786
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 275.491364,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.699953,
+          "y": 0.714188933,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 385.740173,
+        "sqrMagnitude": 148795.484
+      },
+      "inv_id": 37,
+      "inv_amount": 7,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Weapons/ShotgunAmmo",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_7707b1b6df664249a1fcbc70aa778f60": {
+      "position": {
+        "x": 18.4068432,
+        "y": 1.18521714,
+        "z": 12.93889,
+        "normalized": {
+          "x": 0.816967964,
+          "y": 0.05260459,
+          "z": 0.5742788,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 22.53068,
+        "sqrMagnitude": 507.6315
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 285.0,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.6877447,
+          "y": 0.7259527,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 392.587555,
+        "sqrMagnitude": 154125.0
+      },
+      "inv_id": 25,
+      "inv_amount": 50,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Weapons/PistolAmmo",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_81b1f5014a4947bca56438e99ec31bfe": {
+      "position": {
+        "x": 16.7584515,
+        "y": 1.18521714,
+        "z": 12.5599146,
+        "normalized": {
+          "x": 0.7989262,
+          "y": 0.05650289,
+          "z": 0.5987692,
+          "normalized": {
+            "x": 0.798926055,
+            "y": 0.0565028824,
+            "z": 0.5987691,
+            "normalized": {
+              "x": 0.7989261,
+              "y": 0.0565028861,
+              "z": 0.5987692,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 20.9762211,
+        "sqrMagnitude": 440.0019
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 245.491364,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.73988986,
+          "y": 0.672728,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 364.9192,
+        "sqrMagnitude": 133166.016
+      },
+      "inv_id": 37,
+      "inv_amount": 7,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_Weapons/ShotgunAmmo (1)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_d2962d3e8f2e490b8514aad5b1b1d844": {
+      "position": {
+        "x": 2.405026,
+        "y": 1.23894608,
+        "z": 2.43159413,
+        "normalized": {
+          "x": 0.661166,
+          "y": 0.340598851,
+          "z": 0.6684699,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 3.63755226,
+        "sqrMagnitude": 13.2317877
+      },
+      "rotation": {
+        "x": 276.0475,
+        "y": 10.264677,
+        "z": 349.8977,
+        "normalized": {
+          "x": 0.619220853,
+          "y": 0.0230253935,
+          "z": 0.784879267,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 445.798126,
+        "sqrMagnitude": 198735.984
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Apple",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_076a19190c3149aeb20b78ad6cb6296d": {
+      "position": {
+        "x": 2.76807737,
+        "y": 1.21133959,
+        "z": 2.51414466,
+        "normalized": {
+          "x": 0.7042173,
+          "y": 0.308172852,
+          "z": 0.6396151,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 3.93071485,
+        "sqrMagnitude": 15.45052
+      },
+      "rotation": {
+        "x": 276.586029,
+        "y": 122.495934,
+        "z": 147.730469,
+        "normalized": {
+          "x": 0.8215973,
+          "y": 0.363873482,
+          "z": 0.438832551,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 336.6443,
+        "sqrMagnitude": 113329.375
+      },
+      "inv_id": 1,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Banana",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_96f31c2305114b92a4a07d7dde4c4142": {
+      "position": {
+        "x": 2.56399965,
+        "y": 1.25557292,
+        "z": 2.42600846,
+        "normalized": {
+          "x": 0.684376538,
+          "y": 0.335134476,
+          "z": 0.647544265,
+          "normalized": {
+            "x": 0.6843766,
+            "y": 0.3351345,
+            "z": 0.6475443,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 3.746475,
+        "sqrMagnitude": 14.0360746
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": -0.00193198561,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": -7.15550232E-06,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 2,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Pear",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_65a8ba1e9c8743b891ad94a0515de066": {
+      "position": {
+        "x": 4.672054,
+        "y": 1.38044322,
+        "z": 2.523715,
+        "normalized": {
+          "x": 0.851538062,
+          "y": 0.251602381,
+          "z": 0.459977448,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 5.486606,
+        "sqrMagnitude": 30.1028481
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 0.0160156768,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": 5.931732E-05,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 15,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Herb",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_3ad32d66a12442a7888a47a26a4327da": {
+      "position": {
+        "x": 4.52513027,
+        "y": 1.23029041,
+        "z": 2.58174133,
+        "normalized": {
+          "x": 0.8453271,
+          "y": 0.229827151,
+          "z": 0.482287943,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 5.35311174,
+        "sqrMagnitude": 28.6558075
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": -0.00185533729,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": -6.87161946E-06,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 14,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Pills_02",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_0ef983f43f414b9db0a3487e5d1cd888": {
+      "position": {
+        "x": 4.42900372,
+        "y": 1.22079229,
+        "z": 2.58399367,
+        "normalized": {
+          "x": 0.8402589,
+          "y": 0.231605485,
+          "z": 0.490228444,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 5.270999,
+        "sqrMagnitude": 27.78343
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": -0.000136232469,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": -5.045647E-07,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 13,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Pills_01",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_13f59d3770f240ef82151ad449a21fa2": {
+      "position": {
+        "x": 4.199601,
+        "y": 1.27662182,
+        "z": 2.58100033,
+        "normalized": {
+          "x": 0.824752748,
+          "y": 0.250713646,
+          "z": 0.5068784,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 5.091952,
+        "sqrMagnitude": 25.9279766
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 194.999969,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.810679257,
+          "y": 0.585490465,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 333.054047,
+        "sqrMagnitude": 110924.984
+      },
+      "inv_id": 18,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Medicine",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_8ca327fb20c54cec9d9f6c5ad1510054": {
+      "position": {
+        "x": 3.983,
+        "y": 1.18521714,
+        "z": 2.502,
+        "normalized": {
+          "x": 0.821123064,
+          "y": 0.244340733,
+          "z": 0.515804648,
+          "normalized": {
+            "x": 0.8211231,
+            "y": 0.244340748,
+            "z": 0.5158047,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 4.85067368,
+        "sqrMagnitude": 23.5290337
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 89.99983,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.948683441,
+          "y": 0.316227227,
+          "z": 0.0,
+          "normalized": {
+            "x": 0.9486835,
+            "y": 0.316227257,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 284.60495,
+        "sqrMagnitude": 80999.97
+      },
+      "inv_id": 10,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_FirstAidKit",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_eb7bffd605c84b63b78d381a85eee897": {
+      "position": {
+        "x": 3.78210568,
+        "y": 1.19011581,
+        "z": 2.53202152,
+        "normalized": {
+          "x": 0.803942442,
+          "y": 0.252976716,
+          "z": 0.5382186,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 4.704448,
+        "sqrMagnitude": 22.1318321
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 0.000334866258,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": 1.24024541E-06,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 11,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_BloodBag",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_c076a86d63fe4b34a648a8e995f3aebb": {
+      "position": {
+        "x": 11.4489441,
+        "y": 0.0456933565,
+        "z": 4.352916,
+        "normalized": {
+          "x": 0.9347142,
+          "y": 0.003730495,
+          "z": 0.355380565,
+          "normalized": {
+            "x": 0.934714258,
+            "y": 0.00373049523,
+            "z": 0.3553806,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 12.2486038,
+        "sqrMagnitude": 150.02829
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 89.95052,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.7073012,
+          "y": 0.706912339,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 127.24424,
+        "sqrMagnitude": 16191.0967
+      },
+      "inv_id": 8,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "null",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_adb99111b14040148479d4a1f725b268": {
+      "position": {
+        "x": 3.204257,
+        "y": 1.20242834,
+        "z": 2.604541,
+        "normalized": {
+          "x": 0.7450404,
+          "y": 0.2795836,
+          "z": 0.605597,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 4.30078268,
+        "sqrMagnitude": 18.49673
+      },
+      "rotation": {
+        "x": 3.0768726E-05,
+        "y": 180.000381,
+        "z": -0.0003523639,
+        "normalized": {
+          "x": 1.70937E-07,
+          "y": 1.0,
+          "z": -1.957573E-06,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 180.000381,
+        "sqrMagnitude": 32400.1367
+      },
+      "inv_id": 3,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Pashtete Conserve",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_fe4ddbe8b7404084804d7ea2b13bfbea": {
+      "position": {
+        "x": 3.3949995,
+        "y": 1.20099318,
+        "z": 2.49199986,
+        "normalized": {
+          "x": 0.775233865,
+          "y": 0.274241745,
+          "z": 0.5690377,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 4.379323,
+        "sqrMagnitude": 19.1784687
+      },
+      "rotation": {
+        "x": 1.3515E-05,
+        "y": 180.0004,
+        "z": -0.000442712917,
+        "normalized": {
+          "x": 7.508317E-08,
+          "y": 1.0,
+          "z": -2.45951082E-06,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 180.0004,
+        "sqrMagnitude": 32400.1426
+      },
+      "inv_id": 4,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Fish Conserve",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_60fa88d58bd74125b743e16358e9d8bf": {
+      "position": {
+        "x": 3.19570184,
+        "y": 1.27308345,
+        "z": 2.39200234,
+        "normalized": {
+          "x": 0.76272285,
+          "y": 0.303848684,
+          "z": 0.5709027,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 4.18986,
+        "sqrMagnitude": 17.5549278
+      },
+      "rotation": {
+        "x": 0.000200288763,
+        "y": 271.27832,
+        "z": -0.000179520212,
+        "normalized": {
+          "x": 7.38314668E-07,
+          "y": 1.0,
+          "z": -6.617566E-07,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 271.27832,
+        "sqrMagnitude": 73591.93
+      },
+      "inv_id": 5,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Fish Can",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_4d940a7b3c08484aa1052caede64d1d7": {
+      "position": {
+        "x": 4.355,
+        "y": 1.25912285,
+        "z": 2.347,
+        "normalized": {
+          "x": 0.8531049,
+          "y": 0.246650711,
+          "z": 0.459755927,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 5.10488224,
+        "sqrMagnitude": 26.059824
+      },
+      "rotation": {
+        "x": 3.14304884E-06,
+        "y": 330.000336,
+        "z": 4.561853E-06,
+        "normalized": {
+          "x": 9.52438E-09,
+          "y": 1.0,
+          "z": 1.3823783E-08,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 330.000336,
+        "sqrMagnitude": 108900.219
+      },
+      "inv_id": 9,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_MedKit",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_888c72099edb49d79d395ad66ce02fc9": {
+      "position": {
+        "x": 3.03680372,
+        "y": 1.24458253,
+        "z": 2.58430147,
+        "normalized": {
+          "x": 0.7269789,
+          "y": 0.29794,
+          "z": 0.6186546,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 4.177293,
+        "sqrMagnitude": 17.4497757
+      },
+      "rotation": {
+        "x": 0.000200614246,
+        "y": 245.724014,
+        "z": 0.0007760805,
+        "normalized": {
+          "x": 8.16421E-07,
+          "y": 1.0,
+          "z": 3.158342E-06,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 245.724014,
+        "sqrMagnitude": 60380.293
+      },
+      "inv_id": 7,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_EnergyDrink",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_d56073460fd0437ea983fe3ea5ca4444": {
+      "position": {
+        "x": 2.91420221,
+        "y": 1.24458253,
+        "z": 2.49330258,
+        "normalized": {
+          "x": 0.7227441,
+          "y": 0.308665842,
+          "z": 0.618357837,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 4.03213549,
+        "sqrMagnitude": 16.2581177
+      },
+      "rotation": {
+        "x": 0.00019728925,
+        "y": 285.7646,
+        "z": 0.000813474762,
+        "normalized": {
+          "x": 6.90390834E-07,
+          "y": 1.0,
+          "z": 2.84666044E-06,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 285.7646,
+        "sqrMagnitude": 81661.4
+      },
+      "inv_id": 6,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_HealthItems/IH_Cola",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_fd15a3dad1aa49ef80156ad36f61e8fc": {
+      "position": {
+        "x": 7.718434,
+        "y": 1.26600027,
+        "z": 2.32554746,
+        "normalized": {
+          "x": 0.9458897,
+          "y": 0.155147627,
+          "z": 0.284994543,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 8.159972,
+        "sqrMagnitude": 66.58515
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 254.998383,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.7270153,
+          "y": 0.686621249,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 371.381439,
+        "sqrMagnitude": 137924.172
+      },
+      "inv_id": 16,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_CombinableItems/IC_OilBottle",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_6c57fb1e6bad431eb7ba20f364cfa6d6": {
+      "position": {
+        "x": 7.715095,
+        "y": 1.38044333,
+        "z": 2.03876925,
+        "normalized": {
+          "x": 0.9526632,
+          "y": 0.170457721,
+          "z": 0.251748085,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 8.09845,
+        "sqrMagnitude": 65.58489
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 0.015995089,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": 5.924107E-05,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 15,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_CombinableItems/IH_Herb",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_03d44b00f12941aea04c8f5f4b62fa70": {
+      "position": {
+        "x": 7.485054,
+        "y": 1.38044333,
+        "z": 2.03876925,
+        "normalized": {
+          "x": 0.9499271,
+          "y": 0.175191849,
+          "z": 0.2587399,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 7.879609,
+        "sqrMagnitude": 62.0882378
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 0.0159946121,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": 5.92393044E-05,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 15,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_CombinableItems/IH_Herb (1)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_732495c4c71845c781bf69477b1d490b": {
+      "position": {
+        "x": 7.47799873,
+        "y": 1.26600027,
+        "z": 2.32599235,
+        "normalized": {
+          "x": 0.9426372,
+          "y": 0.159585342,
+          "z": 0.29320237,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 7.933061,
+        "sqrMagnitude": 62.93346
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 254.998383,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.7270153,
+          "y": 0.686621249,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 371.381439,
+        "sqrMagnitude": 137924.172
+      },
+      "inv_id": 16,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_CombinableItems/IC_OilBottle (1)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_d64664cbc0bb472bb985529c749f82fc": {
+      "position": {
+        "x": 6.5561,
+        "y": 1.203203,
+        "z": 2.38972068,
+        "normalized": {
+          "x": 0.9258688,
+          "y": 0.169919327,
+          "z": 0.337482333,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 7.08102465,
+        "sqrMagnitude": 50.1409073
+      },
+      "rotation": {
+        "x": 89.98022,
+        "y": 330.0,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.26306358,
+          "y": 0.9647785,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 342.047424,
+        "sqrMagnitude": 116996.438
+      },
+      "inv_id": 19,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_CombinableItems/IC_Syringe",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_ff72c651aee94d3da4183d98d021e4f2": {
+      "position": {
+        "x": 6.545587,
+        "y": 1.27662182,
+        "z": 2.02962518,
+        "normalized": {
+          "x": 0.93898344,
+          "y": 0.1831351,
+          "z": 0.2911556,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 6.970929,
+        "sqrMagnitude": 48.593853
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 209.9999,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.7893524,
+          "y": 0.6139404,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 342.052551,
+        "sqrMagnitude": 116999.953
+      },
+      "inv_id": 18,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_CombinableItems/IH_Medicine",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_6a9999c3626942678c3c01454f1a1e38": {
+      "position": {
+        "x": 6.256001,
+        "y": 1.27662182,
+        "z": 2.02962518,
+        "normalized": {
+          "x": 0.933765948,
+          "y": 0.1905476,
+          "z": 0.3029403,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 6.699753,
+        "sqrMagnitude": 44.88669
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 209.9999,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.7893524,
+          "y": 0.6139404,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 342.052551,
+        "sqrMagnitude": 116999.953
+      },
+      "inv_id": 18,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_CombinableItems/IH_Medicine (1)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_200ee0aae14f4affbbbea29980ba299f": {
+      "position": {
+        "x": 6.236,
+        "y": 1.20320308,
+        "z": 2.38972068,
+        "normalized": {
+          "x": 0.918987036,
+          "y": 0.177313671,
+          "z": 0.352168441,
+          "normalized": {
+            "x": 0.9189871,
+            "y": 0.177313685,
+            "z": 0.352168471,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 6.78573227,
+        "sqrMagnitude": 46.0461578
+      },
+      "rotation": {
+        "x": 89.98022,
+        "y": 330.000031,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.26306355,
+          "y": 0.9647785,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 342.047455,
+        "sqrMagnitude": 116996.461
+      },
+      "inv_id": 19,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_CombinableItems/IC_Syringe (1)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_117eb5b74b24488f888d16a0bcffac64": {
+      "position": {
+        "x": 11.0049992,
+        "y": 1.49908328,
+        "z": 1.91199613,
+        "normalized": {
+          "x": 0.9764858,
+          "y": 0.13301532,
+          "z": 0.169653535,
+          "normalized": {
+            "x": 0.976485848,
+            "y": 0.133015335,
+            "z": 0.16965355,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 11.2700043,
+        "sqrMagnitude": 127.012985
+      },
+      "rotation": {
+        "x": -3.814242E-06,
+        "y": -1.28269278E-06,
+        "z": 9.072729E-07,
+        "normalized": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 0.0,
+          "sqrMagnitude": 0.0
+        },
+        "magnitude": 4.125153E-06,
+        "sqrMagnitude": 1.70168879E-11
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_8edf029a0fdb46d2ac3902468b8b05a5": {
+      "position": {
+        "x": 9.967,
+        "y": 1.19605029,
+        "z": 1.96700287,
+        "normalized": {
+          "x": 0.974347949,
+          "y": 0.116922759,
+          "z": 0.192289069,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 10.2294054,
+        "sqrMagnitude": 104.640724
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 2.01301082E-05,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": 7.45559561E-08,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_f0120992242045cba319534eb01ced7f": {
+      "position": {
+        "x": 20.5600014,
+        "y": 1.20711863,
+        "z": 2.08700585,
+        "normalized": {
+          "x": 0.99319464,
+          "y": 0.0583124347,
+          "z": 0.100817263,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 20.7008781,
+        "sqrMagnitude": 428.5264
+      },
+      "rotation": {
+        "x": 8.537737E-05,
+        "y": 105.000275,
+        "z": 90.0001144,
+        "normalized": {
+          "x": 6.17363753E-07,
+          "y": 0.759257,
+          "z": 0.6507908,
+          "normalized": {
+            "x": 6.173638E-07,
+            "y": 0.7592571,
+            "z": 0.65079087,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 138.293457,
+        "sqrMagnitude": 19125.0781
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_a367995213234bcf9c29d607e789d707": {
+      "position": {
+        "x": 21.128,
+        "y": 1.18521714,
+        "z": 2.118,
+        "normalized": {
+          "x": 0.993466556,
+          "y": 0.05573048,
+          "z": 0.0995911658,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 21.2669468,
+        "sqrMagnitude": 452.283051
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 179.999832,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 179.999832,
+        "sqrMagnitude": 32399.94
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_e16a009b6315496a9b457415c8e24cd3": {
+      "position": {
+        "x": 21.818,
+        "y": 1.1881,
+        "z": 2.214,
+        "normalized": {
+          "x": 0.993433833,
+          "y": 0.0540974736,
+          "z": 0.100809537,
+          "normalized": {
+            "x": 0.9934339,
+            "y": 0.0540974773,
+            "z": 0.100809544,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 21.9622078,
+        "sqrMagnitude": 482.338531
+      },
+      "rotation": {
+        "x": 90.0,
+        "y": 105.000565,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.6507894,
+          "y": 0.75925833,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 138.2936,
+        "sqrMagnitude": 19125.12
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_5f8c1c71a9304c6fb94a81b0d497b66d": {
+      "position": {
+        "x": 22.336,
+        "y": 1.192,
+        "z": 2.168,
+        "normalized": {
+          "x": 0.9939213,
+          "y": 0.0530423634,
+          "z": 0.0964730158,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 22.4726048,
+        "sqrMagnitude": 505.018
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 164.999863,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.853282034,
+          "y": 0.5214497,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 316.425262,
+        "sqrMagnitude": 100124.953
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveLight_a578af762c7e4892b34a7f11b8d2a53b": {
+      "isPoweredOn": false,
+      "defaultPower": false,
+      "lightType": 0
+    },
+    "InteractiveLight_c03bf7a9d1df4daa9f03b63c91c53c80": {
+      "isPoweredOn": false,
+      "defaultPower": false,
+      "lightType": 0
+    },
+    "InteractiveLight_8b14655669e34e0483d80d6bbd76bf89": {
+      "isPoweredOn": false,
+      "defaultPower": false,
+      "lightType": 1
+    },
+    "InteractiveLight_6ffe75fd8f304dceba42e30b7985d71e": {
+      "isPoweredOn": false,
+      "defaultPower": false,
+      "lightType": 1
+    },
+    "CCTV_cb1a1799c10b4ca5aa1118c0ebb99c84": {
+      "isOn": false,
+      "channel": 0
+    },
+    "ExamineObjectAnimation_91205ec2aff2430ca705d00d675f6cda": {
+      "isPlayed": false,
+      "rotation": {
+        "x": 270.0,
+        "y": 270.000183,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.707106531,
+          "y": 0.707107,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 381.8378,
+        "sqrMagnitude": 145800.1
+      }
+    },
+    "InteractiveItem_4e7f2eb5931a4a0c89c9543dcd9553da": {
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "NumberPadlock_81ba5cd0b4f245e3aabde89b026bb208": {
+      "isUnlocked": false
+    },
+    "InteractiveItem_778e66bed3114118b71d412ee6f1cbbe": {
+      "inv_id": 26,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_ChestRadio/OldChest/OldChest_Body/Flashlight",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "Radio_847e3472eb3544d49d6e0233b3bc97b8": {
+      "isOn": false,
+      "tunerPos": 0.0072,
+      "lastChannel": 0,
+      "playbackTimes": [
+        0.0,
+        0.0
+      ]
+    },
+    "VCRPlayer_afef8c8387944a8dbeb5068df0c9ca65": {
+      "vhs_tape": 0,
+      "vhs_tape_tag": null,
+      "vhs_tape_desc": null,
+      "vhs_tape_texpath": null,
+      "player_isOn": false,
+      "player_canEject": false,
+      "player_canInsert": true,
+      "player_isEjecting": false,
+      "player_isRewinding": false,
+      "player_isTapeEnded": false,
+      "player_isStarted": false,
+      "player_duration": 0,
+      "player_secdiff": 0,
+      "player_minutes": 0,
+      "player_seconds": 0,
+      "vcr_tv": {
+        "tv_isOn": false,
+        "tv_lastframe": -1
+      }
+    },
+    "InteractiveItem_b7e16485103f4c84897139d3d6dea2c0": {
+      "position": {
+        "x": 19.7843227,
+        "y": 1.88774979,
+        "z": 6.78895569,
+        "normalized": {
+          "x": 0.942032635,
+          "y": 0.0898854062,
+          "z": 0.32325685,
+          "normalized": {
+            "x": 0.9420327,
+            "y": 0.08988541,
+            "z": 0.32325688,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 21.0017376,
+        "sqrMagnitude": 441.072937
+      },
+      "rotation": {
+        "x": 273.001862,
+        "y": 105.000237,
+        "z": 269.999756,
+        "normalized": {
+          "x": 0.685824037,
+          "y": 0.2637773,
+          "z": 0.678282261,
+          "normalized": {
+            "x": 0.6858241,
+            "y": 0.263777316,
+            "z": 0.6782823,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 398.064,
+        "sqrMagnitude": 158454.938
+      },
+      "inv_id": 35,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": null,
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_03c7f8ddff9b41e3be9addace09a59b9": {
+      "position": {
+        "x": 19.800005,
+        "y": 1.20225537,
+        "z": 7.82300329,
+        "normalized": {
+          "x": 0.9285601,
+          "y": 0.0563821234,
+          "z": 0.366875082,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 21.3233433,
+        "sqrMagnitude": 454.685
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 0.000222164992,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": 8.22833329E-07,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 35,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "Value": "Something was there!!",
+          "Tag": "vhs_something",
+          "Path": "Textures/VHS/VHS_Something",
+          "object_path": "Level/ShowcaseObjects/Table_VHS/VHSTape",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_755c2920ebf44ccb9fa5a9daccb89fd7": {
+      "position": {
+        "x": 19.831007,
+        "y": 1.20225537,
+        "z": 8.225003,
+        "normalized": {
+          "x": 0.9222578,
+          "y": 0.0559119061,
+          "z": 0.382510751,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 21.5026722,
+        "sqrMagnitude": 462.364929
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 315.000458,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.6507908,
+          "y": 0.7592571,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 414.879852,
+        "sqrMagnitude": 172125.281
+      },
+      "inv_id": 35,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "Value": "Monster at woods!",
+          "Tag": "vhs_monster",
+          "Path": "Textures/VHS/VHS_Monster",
+          "object_path": "Level/ShowcaseObjects/Table_VHS/VHSTape 1",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "SaveObject_3167564827c34e8daa4bf9ac717c03dd": {
+      "active_state": {
+        "renderer": true,
+        "activeSelf": true
+      },
+      "position": {
+        "x": 42.4062538,
+        "y": 1.23481035,
+        "z": 48.4596443,
+        "normalized": {
+          "x": 0.6584193,
+          "y": 0.0191722419,
+          "z": 0.7524071,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 64.40615,
+        "sqrMagnitude": 4148.15234
+      },
+      "angles": {
+        "x": 273.292175,
+        "y": 191.74234,
+        "z": 210.473511,
+        "normalized": {
+          "x": 0.6924832,
+          "y": 0.4858476,
+          "z": 0.5333097,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 394.655334,
+        "sqrMagnitude": 155752.844
+      }
+    },
+    "DraggableObject_cd162a086b2f41a78b1a5a33ef02e5b2": {
+      "position": {
+        "x": 42.4062538,
+        "y": 1.23481035,
+        "z": 48.4596443,
+        "normalized": {
+          "x": 0.6584193,
+          "y": 0.0191722419,
+          "z": 0.7524071,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 64.40615,
+        "sqrMagnitude": 4148.15234
+      },
+      "rotation": {
+        "x": 273.292175,
+        "y": 191.74234,
+        "z": 210.473511,
+        "normalized": {
+          "x": 0.6924832,
+          "y": 0.4858476,
+          "z": 0.5333097,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 394.655334,
+        "sqrMagnitude": 155752.844
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "SaveObject_bd1a48b6b9b74aee8169830c04f8ab05": {
+      "active_state": {
+        "renderer": true,
+        "activeSelf": true
+      },
+      "position": {
+        "x": 42.6685371,
+        "y": 1.23482943,
+        "z": 48.1550255,
+        "normalized": {
+          "x": 0.6630607,
+          "y": 0.0191890076,
+          "z": 0.7483197,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 64.3508759,
+        "sqrMagnitude": 4141.035
+      },
+      "angles": {
+        "x": 273.28186,
+        "y": 206.9044,
+        "z": 210.269791,
+        "normalized": {
+          "x": 0.6795916,
+          "y": 0.514525533,
+          "z": 0.5228945,
+          "normalized": {
+            "x": 0.679591656,
+            "y": 0.5145256,
+            "z": 0.522894561,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 402.1266,
+        "sqrMagnitude": 161705.8
+      }
+    },
+    "DraggableObject_4b6d1032d85f47999337ee8ea4bad6e6": {
+      "position": {
+        "x": 42.6685371,
+        "y": 1.23482943,
+        "z": 48.1550255,
+        "normalized": {
+          "x": 0.6630607,
+          "y": 0.0191890076,
+          "z": 0.7483197,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 64.3508759,
+        "sqrMagnitude": 4141.035
+      },
+      "rotation": {
+        "x": 273.28186,
+        "y": 206.9044,
+        "z": 210.269791,
+        "normalized": {
+          "x": 0.6795916,
+          "y": 0.514525533,
+          "z": 0.5228945,
+          "normalized": {
+            "x": 0.679591656,
+            "y": 0.5145256,
+            "z": 0.522894561,
+            "magnitude": 1.00000012,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 402.1266,
+        "sqrMagnitude": 161705.8
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "InteractiveItem_a2dfa2ff36b34ecf9559996531f7f58b": {
+      "position": {
+        "x": 41.75074,
+        "y": 1.1852175,
+        "z": 49.26778,
+        "normalized": {
+          "x": 0.6463983,
+          "y": 0.0183499157,
+          "z": 0.762779534,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 64.5898056,
+        "sqrMagnitude": 4171.84326
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 164.999908,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.853282,
+          "y": 0.5214498,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 316.4253,
+        "sqrMagnitude": 100124.969
+      },
+      "inv_id": 25,
+      "inv_amount": 50,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_ZombieZone/PistolAmmo (1)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_8df9a2443266476280b2ec946fcd69cd": {
+      "position": {
+        "x": 42.03786,
+        "y": 1.1852175,
+        "z": 49.168808,
+        "normalized": {
+          "x": 0.649729848,
+          "y": 0.0183185153,
+          "z": 0.7599445,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 64.70052,
+        "sqrMagnitude": 4186.158
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 140.49118,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.88709414,
+          "y": 0.461588532,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 304.364532,
+        "sqrMagnitude": 92637.77
+      },
+      "inv_id": 37,
+      "inv_amount": 7,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Table_ZombieZone/ShotgunAmmo (2)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_7d20edd9543941e3bc485273cf174fb2": {
+      "position": {
+        "x": 18.76445,
+        "y": 1.20510364,
+        "z": 2.26999974,
+        "normalized": {
+          "x": 0.9907504,
+          "y": 0.0636286661,
+          "z": 0.119854465,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 18.9396343,
+        "sqrMagnitude": 358.709747
+      },
+      "rotation": {
+        "x": 5.187639E-05,
+        "y": 179.999878,
+        "z": 269.999817,
+        "normalized": {
+          "x": 1.5986592E-07,
+          "y": 0.5547002,
+          "z": 0.8320503,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 324.4994,
+        "sqrMagnitude": 105299.859
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_f12113c40145444a9d7a15c12d4ee323": {
+      "position": {
+        "x": 18.4080029,
+        "y": 1.27662182,
+        "z": 2.2869997,
+        "normalized": {
+          "x": 0.9900286,
+          "y": 0.068659924,
+          "z": 0.123000585,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 18.5934048,
+        "sqrMagnitude": 345.7147
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 209.999557,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.789352834,
+          "y": 0.613939762,
+          "z": 0.0,
+          "normalized": {
+            "x": 0.7893529,
+            "y": 0.6139398,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 342.052368,
+        "sqrMagnitude": 116999.813
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_f24b5aee0a154d85bc57441e9bc58ba1": {
+      "position": {
+        "x": 18.086,
+        "y": 1.229702,
+        "z": 2.31127548,
+        "normalized": {
+          "x": 0.9896848,
+          "y": 0.0672905743,
+          "z": 0.126475409,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 18.2745056,
+        "sqrMagnitude": 333.957581
+      },
+      "rotation": {
+        "x": 4.46671766E-06,
+        "y": 345.0,
+        "z": -0.000167207938,
+        "normalized": {
+          "x": 1.29470079E-08,
+          "y": 1.0,
+          "z": -4.846607E-07,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 345.0,
+        "sqrMagnitude": 119025.0
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_e4a270a425a540a8a206ab5f26e12d5d": {
+      "position": {
+        "x": 17.759,
+        "y": 1.33298421,
+        "z": 2.3239994,
+        "normalized": {
+          "x": 0.9888111,
+          "y": 0.0742198,
+          "z": 0.129398972,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 17.9599533,
+        "sqrMagnitude": 322.559937
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": -0.000416391325,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": -1.54219015E-06,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_f3696a4e25f44d7391a52acd85ee06b4": {
+      "position": {
+        "x": 17.357,
+        "y": 1.21474946,
+        "z": 2.27000022,
+        "normalized": {
+          "x": 0.989177167,
+          "y": 0.0692286938,
+          "z": 0.129367545,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 17.5469074,
+        "sqrMagnitude": 307.893982
+      },
+      "rotation": {
+        "x": 8.196227E-05,
+        "y": 90.00031,
+        "z": 90.00009,
+        "normalized": {
+          "x": 6.43955E-07,
+          "y": 0.707107663,
+          "z": 0.707105935,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 127.2795,
+        "sqrMagnitude": 16200.0732
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_c924c1486fe949e4b8e552336f0f6822": {
+      "position": {
+        "x": 17.054,
+        "y": 1.20549631,
+        "z": 2.32100034,
+        "normalized": {
+          "x": 0.988444,
+          "y": 0.0698701441,
+          "z": 0.134524375,
+          "normalized": {
+            "x": 0.988443851,
+            "y": 0.06987014,
+            "z": 0.13452436,
+            "normalized": {
+              "x": 0.9884439,
+              "y": 0.0698701441,
+              "z": 0.134524375,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 17.2533817,
+        "sqrMagnitude": 297.6792
+      },
+      "rotation": {
+        "x": 0.000122943413,
+        "y": 74.99967,
+        "z": 90.00017,
+        "normalized": {
+          "x": 1.04942012E-06,
+          "y": 0.640182,
+          "z": 0.7682232,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 117.153664,
+        "sqrMagnitude": 13724.9814
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_a1bb2602cafe4114b0cb5e1a6696cb36": {
+      "position": {
+        "x": 33.0725861,
+        "y": 0.498554319,
+        "z": 1.892181,
+        "normalized": {
+          "x": 0.998254359,
+          "y": 0.0150482338,
+          "z": 0.0571131,
+          "normalized": {
+            "x": 0.99825424,
+            "y": 0.0150482319,
+            "z": 0.0571130924,
+            "normalized": {
+              "x": 0.9982543,
+              "y": 0.0150482329,
+              "z": 0.0571130961,
+              "magnitude": 1.0,
+              "sqrMagnitude": 1.0
+            },
+            "magnitude": 0.99999994,
+            "sqrMagnitude": 0.9999999
+          },
+          "magnitude": 1.00000012,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 33.13042,
+        "sqrMagnitude": 1097.62488
+      },
+      "rotation": {
+        "x": 270.083923,
+        "y": 239.96344,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.747562051,
+          "y": 0.664191961,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 361.2863,
+        "sqrMagnitude": 130527.781
+      },
+      "inv_id": 31,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_46a78c0355b64103b2b2773aa5a2bac0": {
+      "position": {
+        "x": 38.9829941,
+        "y": 0.4985541,
+        "z": 1.89218819,
+        "normalized": {
+          "x": 0.9987426,
+          "y": 0.0127729345,
+          "z": 0.0484777763,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 39.032074,
+        "sqrMagnitude": 1523.50281
+      },
+      "rotation": {
+        "x": 270.083923,
+        "y": 239.970215,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.7475528,
+          "y": 0.664202452,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 361.290771,
+        "sqrMagnitude": 130531.031
+      },
+      "inv_id": 34,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "InteractiveItem_13fc585ebe9c4b1db66b3673ea29b83a": {
+      "position": {
+        "x": 33.001,
+        "y": 1.27761126,
+        "z": 1.93600011,
+        "normalized": {
+          "x": 0.997539,
+          "y": 0.03861904,
+          "z": 0.05852052,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 33.0824165,
+        "sqrMagnitude": 1094.44641
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": -0.0007812131,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": -2.89338186E-06,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "inv_id": 33,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/DynamicObjects/I_Key03",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "DynamicObject_1706cd6a334143e185abc8c43060a8a9": {
+      "use_type": 0,
+      "position": {
+        "x": 33.0,
+        "y": 2.11110353,
+        "normalized": {
+          "x": 0.99796,
+          "y": 0.06384233,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 33.06746,
+        "sqrMagnitude": 1093.45679
+      },
+      "is_opened": false,
+      "is_locked": false
+    },
+    "DynamicObject_cfc7b4d6c25d4944ae571dd488555bdb": {
+      "use_type": 0,
+      "position": {
+        "x": 33.0,
+        "y": 2.11110353,
+        "normalized": {
+          "x": 0.99796,
+          "y": 0.06384233,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 33.06746,
+        "sqrMagnitude": 1093.45679
+      },
+      "is_opened": false,
+      "is_locked": false
+    },
+    "DynamicObject_52967b4879c84abb8339fe2833e0dd01": {
+      "use_type": 1,
+      "position": {
+        "x": 33.0,
+        "y": 2.11110353,
+        "normalized": {
+          "x": 0.99796,
+          "y": 0.06384233,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 33.06746,
+        "sqrMagnitude": 1093.45679
+      },
+      "is_opened": false,
+      "is_locked": true
+    },
+    "DynamicObject_867d22ceab614ddfb6c085c17c342919": {
+      "use_type": 1,
+      "door_angle": 179.940781,
+      "is_opened": false,
+      "is_locked": true
+    },
+    "DynamicObject_ae526cfae3de4736b0280ad81fd09176": {
+      "use_type": 0,
+      "position": {
+        "x": 39.0,
+        "y": 2.1111033,
+        "normalized": {
+          "x": 0.9985382,
+          "y": 0.0540517233,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 39.0570946,
+        "sqrMagnitude": 1525.45679
+      },
+      "is_opened": false,
+      "is_locked": false
+    },
+    "DynamicObject_7eb651ebc6ed46fda6b1340bf4655e7d": {
+      "use_type": 0,
+      "position": {
+        "x": 39.0,
+        "y": 2.1111033,
+        "normalized": {
+          "x": 0.9985382,
+          "y": 0.0540517233,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 39.0570946,
+        "sqrMagnitude": 1525.45679
+      },
+      "is_opened": false,
+      "is_locked": false
+    },
+    "DynamicObject_2549475ed4a749cf8f9bb167768ed881": {
+      "use_type": 1,
+      "position": {
+        "x": 39.0,
+        "y": 2.1111033,
+        "normalized": {
+          "x": 0.9985382,
+          "y": 0.0540517233,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 39.0570946,
+        "sqrMagnitude": 1525.45679
+      },
+      "is_opened": false,
+      "is_locked": true
+    },
+    "DynamicObject_87abb1f268534cdc83338f2da7af2187": {
+      "use_type": 0,
+      "door_angle": 0.000252716971,
+      "is_opened": false,
+      "is_locked": false
+    },
+    "DynamicObject_5a65e967a1cd497ca057c61449606b0b": {
+      "use_type": 2,
+      "door_angle": 270.000153,
+      "is_opened": false,
+      "is_locked": true
+    },
+    "SaveObject_caa77bf1042a42638927269fd724940c": {
+      "active_state": {
+        "renderer": true,
+        "activeSelf": true
+      },
+      "position": {
+        "x": 44.979,
+        "y": 2.57900047,
+        "z": 2.25700283,
+        "normalized": {
+          "x": 0.99710983,
+          "y": 0.05717216,
+          "z": 0.05003401,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 45.109375,
+        "sqrMagnitude": 2034.85571
+      },
+      "angles": {
+        "x": 79.00003,
+        "y": 270.0,
+        "z": 269.999847,
+        "normalized": {
+          "x": 0.202603534,
+          "y": 0.6924422,
+          "z": 0.692441761,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 389.924255,
+        "sqrMagnitude": 152040.922
+      },
+      "rigidbody_kinematic": true,
+      "rigidbody_gravity": false,
+      "rigidbody_mass": 1.0,
+      "rigidbody_drag": 0.0,
+      "rigidbody_angdrag": 0.05,
+      "rigidbody_freeze": false,
+      "rigidbody_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      }
+    },
+    "DynamicObjectPlank_fbfabb8649744d829311bc062467fafa": {
+      "isEnabled": true,
+      "position": {
+        "x": 44.979,
+        "y": 2.57900047,
+        "z": 2.25700283,
+        "normalized": {
+          "x": 0.99710983,
+          "y": 0.05717216,
+          "z": 0.05003401,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 45.109375,
+        "sqrMagnitude": 2034.85571
+      },
+      "rotation": {
+        "x": 79.00003,
+        "y": 270.0,
+        "z": 269.999847,
+        "normalized": {
+          "x": 0.202603534,
+          "y": 0.6924422,
+          "z": 0.692441761,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 389.924255,
+        "sqrMagnitude": 152040.922
+      },
+      "rigidbody_kinematic": true,
+      "rigidbody_gravity": false,
+      "rigidbody_freeze": false
+    },
+    "SaveObject_e4641ed3c13d4fdda740e3cceddca001": {
+      "active_state": {
+        "renderer": true,
+        "activeSelf": true
+      },
+      "position": {
+        "x": 44.9820023,
+        "y": 2.04200077,
+        "z": 2.26100278,
+        "normalized": {
+          "x": 0.9977142,
+          "y": 0.0452921875,
+          "z": 0.0501497164,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 45.0850563,
+        "sqrMagnitude": 2032.66248
+      },
+      "angles": {
+        "x": 87.51919,
+        "y": 77.27121,
+        "z": 77.25948,
+        "normalized": {
+          "x": 0.625145435,
+          "y": 0.5519446,
+          "z": 0.551860869,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 139.998123,
+        "sqrMagnitude": 19599.4766
+      },
+      "rigidbody_kinematic": true,
+      "rigidbody_gravity": false,
+      "rigidbody_mass": 1.0,
+      "rigidbody_drag": 0.0,
+      "rigidbody_angdrag": 0.05,
+      "rigidbody_freeze": false,
+      "rigidbody_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      }
+    },
+    "DynamicObjectPlank_5bb6ee13a41a4907b5dd94aabd244583": {
+      "isEnabled": true,
+      "position": {
+        "x": 44.9820023,
+        "y": 2.04200077,
+        "z": 2.26100278,
+        "normalized": {
+          "x": 0.9977142,
+          "y": 0.0452921875,
+          "z": 0.0501497164,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 45.0850563,
+        "sqrMagnitude": 2032.66248
+      },
+      "rotation": {
+        "x": 87.51919,
+        "y": 77.27121,
+        "z": 77.25948,
+        "normalized": {
+          "x": 0.625145435,
+          "y": 0.5519446,
+          "z": 0.551860869,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 139.998123,
+        "sqrMagnitude": 19599.4766
+      },
+      "rigidbody_kinematic": true,
+      "rigidbody_gravity": false,
+      "rigidbody_freeze": false
+    },
+    "SaveObject_9655f58f28bc473bad9d74ec0ac242f0": {
+      "active_state": {
+        "renderer": true,
+        "activeSelf": true
+      },
+      "position": {
+        "x": 44.962,
+        "y": 1.53900051,
+        "z": 2.255003,
+        "normalized": {
+          "x": 0.9981616,
+          "y": 0.03416599,
+          "z": 0.0500613265,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 45.04481,
+        "sqrMagnitude": 2029.03516
+      },
+      "angles": {
+        "x": 87.0050659,
+        "y": 90.00017,
+        "z": 90.00013,
+        "normalized": {
+          "x": 0.5643266,
+          "y": 0.5837532,
+          "z": 0.583753,
+          "normalized": {
+            "x": 0.564326644,
+            "y": 0.5837533,
+            "z": 0.583753049,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 154.175018,
+        "sqrMagnitude": 23769.9355
+      },
+      "rigidbody_kinematic": true,
+      "rigidbody_gravity": false,
+      "rigidbody_mass": 1.0,
+      "rigidbody_drag": 0.0,
+      "rigidbody_angdrag": 0.05,
+      "rigidbody_freeze": false,
+      "rigidbody_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      }
+    },
+    "DynamicObjectPlank_07dc3b357e7840449e20b5efb6e9eb43": {
+      "isEnabled": true,
+      "position": {
+        "x": 44.962,
+        "y": 1.53900051,
+        "z": 2.255003,
+        "normalized": {
+          "x": 0.9981616,
+          "y": 0.03416599,
+          "z": 0.0500613265,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 45.04481,
+        "sqrMagnitude": 2029.03516
+      },
+      "rotation": {
+        "x": 87.0050659,
+        "y": 90.00017,
+        "z": 90.00013,
+        "normalized": {
+          "x": 0.5643266,
+          "y": 0.5837532,
+          "z": 0.583753,
+          "normalized": {
+            "x": 0.564326644,
+            "y": 0.5837533,
+            "z": 0.583753049,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 154.175018,
+        "sqrMagnitude": 23769.9355
+      },
+      "rigidbody_kinematic": true,
+      "rigidbody_gravity": false,
+      "rigidbody_freeze": false
+    },
+    "SaveObject_88fd602a15284f4eb799750dda6cbe1e": {
+      "active_state": {
+        "renderer": true,
+        "activeSelf": true
+      },
+      "position": {
+        "x": 44.9340019,
+        "y": 0.990000248,
+        "z": 2.25300312,
+        "normalized": {
+          "x": 0.9985037,
+          "y": 0.0219993517,
+          "z": 0.0500652455,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 45.00134,
+        "sqrMagnitude": 2025.12061
+      },
+      "angles": {
+        "x": 80.33971,
+        "y": 270.0003,
+        "z": 270.000183,
+        "normalized": {
+          "x": 0.205894545,
+          "y": 0.6919566,
+          "z": 0.6919563,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 390.198334,
+        "sqrMagnitude": 152254.734
+      },
+      "rigidbody_kinematic": true,
+      "rigidbody_gravity": false,
+      "rigidbody_mass": 1.0,
+      "rigidbody_drag": 0.0,
+      "rigidbody_angdrag": 0.05,
+      "rigidbody_freeze": false,
+      "rigidbody_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      }
+    },
+    "DynamicObjectPlank_31e938c59f54421a9c3c032073d2024f": {
+      "isEnabled": true,
+      "position": {
+        "x": 44.9340019,
+        "y": 0.990000248,
+        "z": 2.25300312,
+        "normalized": {
+          "x": 0.9985037,
+          "y": 0.0219993517,
+          "z": 0.0500652455,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 45.00134,
+        "sqrMagnitude": 2025.12061
+      },
+      "rotation": {
+        "x": 80.33971,
+        "y": 270.0003,
+        "z": 270.000183,
+        "normalized": {
+          "x": 0.205894545,
+          "y": 0.6919566,
+          "z": 0.6919563,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 390.198334,
+        "sqrMagnitude": 152254.734
+      },
+      "rigidbody_kinematic": true,
+      "rigidbody_gravity": false,
+      "rigidbody_freeze": false
+    },
+    "SaveObject_6281a62da83e48139d4b61378540bda0": {
+      "active_state": {
+        "renderer": true,
+        "activeSelf": true
+      },
+      "position": {
+        "x": 44.962,
+        "y": 0.4390002,
+        "z": 2.256003,
+        "normalized": {
+          "x": 0.998696,
+          "y": 0.009751073,
+          "z": 0.05011034,
+          "normalized": {
+            "x": 0.9986961,
+            "y": 0.009751074,
+            "z": 0.0501103438,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 45.0207062,
+        "sqrMagnitude": 2026.86389
+      },
+      "angles": {
+        "x": 89.14293,
+        "y": 270.001038,
+        "z": 270.0008,
+        "normalized": {
+          "x": 0.227343708,
+          "y": 0.688591242,
+          "z": 0.6885906,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 392.1064,
+        "sqrMagnitude": 153747.453
+      },
+      "rigidbody_kinematic": true,
+      "rigidbody_gravity": false,
+      "rigidbody_mass": 1.0,
+      "rigidbody_drag": 0.0,
+      "rigidbody_angdrag": 0.05,
+      "rigidbody_freeze": false,
+      "rigidbody_velocity": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      }
+    },
+    "DynamicObjectPlank_6d1456e1b8ae4368a6dff51441b1396b": {
+      "isEnabled": true,
+      "position": {
+        "x": 44.962,
+        "y": 0.4390002,
+        "z": 2.256003,
+        "normalized": {
+          "x": 0.998696,
+          "y": 0.009751073,
+          "z": 0.05011034,
+          "normalized": {
+            "x": 0.9986961,
+            "y": 0.009751074,
+            "z": 0.0501103438,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 45.0207062,
+        "sqrMagnitude": 2026.86389
+      },
+      "rotation": {
+        "x": 89.14293,
+        "y": 270.001038,
+        "z": 270.0008,
+        "normalized": {
+          "x": 0.227343708,
+          "y": 0.688591242,
+          "z": 0.6885906,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 392.1064,
+        "sqrMagnitude": 153747.453
+      },
+      "rigidbody_kinematic": true,
+      "rigidbody_gravity": false,
+      "rigidbody_freeze": false
+    },
+    "InteractiveLight_1451178695ff4a368f8472e2027dd699": {
+      "isPoweredOn": false,
+      "defaultPower": true,
+      "lightType": 1
+    },
+    "DynamicObject_d5302cf8fa674777ae473efd39e94876": {
+      "use_type": 0,
+      "door_angle": 269.999817,
+      "is_opened": false,
+      "is_locked": false
+    },
+    "DynamicObject_cae1ce9acb0149ea8fc172684a22e565": {
+      "use_type": 0,
+      "lever_angle": 180.0,
+      "is_up": false,
+      "is_holding": false,
+      "hold": false,
+      "invokeUp": false,
+      "isInvoked": false
+    },
+    "DynamicObject_93614646cd7f4b2185c909be4882739c": {
+      "use_type": 0,
+      "door_angle": 267.052521,
+      "is_opened": true,
+      "is_locked": false
+    },
+    "DynamicObject_4aa26a5b2892464c975e16ce86178e5a": {
+      "use_type": 0,
+      "lever_angle": 180.0,
+      "is_up": false,
+      "is_holding": false,
+      "hold": false,
+      "invokeUp": false,
+      "isInvoked": true
+    },
+    "DynamicObject_c32eb121ddbd48a1bb83865a14678f3e": {
+      "use_type": 1,
+      "door_angle": 0.0,
+      "is_opened": false,
+      "is_locked": true
+    },
+    "KeycardLock_e762ebbb376e4986a72841eb3e408451": {
+      "granted": false
+    },
+    "InteractiveItem_e366634a6d4c4957b580e598e4ed4686": {
+      "position": {
+        "x": 41.341,
+        "y": 1.185217,
+        "z": 13.3740005,
+        "normalized": {
+          "x": 0.951097667,
+          "y": 0.027267294,
+          "z": 0.307684422,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 43.4666176,
+        "sqrMagnitude": 1889.34692
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 285.001,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.687743366,
+          "y": 0.725953937,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 392.5883,
+        "sqrMagnitude": 154125.578
+      },
+      "inv_id": 24,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/CardlockDoor/SecurityCard",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": true,
+      "floatingIcon": true
+    },
+    "DynamicObject_c6f86d02137e433585f1ce0f78b9805a": {
+      "use_type": 1,
+      "door_angle": 0.0,
+      "is_opened": false,
+      "is_locked": true
+    },
+    "Keypad_484dc7909c094330ba0ce886c8dd92b6": {
+      "accessGranted": false
+    },
+    "DynamicObject_2c735a88743c4b6988ed3de223288d19": {
+      "rotate_value": 0.0
+    },
+    "InteractiveItem_42a2ae4b30da429c9f0db1a9a9abc24d": {
+      "position": {
+        "x": 57.315,
+        "y": 1.23898327,
+        "z": 2.20059943,
+        "normalized": {
+          "x": 0.99903065,
+          "y": 0.0215961318,
+          "z": 0.038357608,
+          "normalized": {
+            "x": 0.9990307,
+            "y": 0.0215961337,
+            "z": 0.03835761,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 57.37061,
+        "sqrMagnitude": 3291.38672
+      },
+      "rotation": {
+        "x": 275.793945,
+        "y": 190.223923,
+        "z": 349.977539,
+        "normalized": {
+          "x": 0.5692445,
+          "y": 0.392626166,
+          "z": 0.722360969,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 484.4912,
+        "sqrMagnitude": 234731.719
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Objectives/Table_Apples/IH_Apple",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_adc934072dbc4f579d5d2fa6d5b2c387": {
+      "position": {
+        "x": 57.614933,
+        "y": 1.23899662,
+        "z": 2.20069313,
+        "normalized": {
+          "x": 0.999040663,
+          "y": 0.0214841533,
+          "z": 0.0381599329,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 57.6702576,
+        "sqrMagnitude": 3325.85864
+      },
+      "rotation": {
+        "x": 275.698853,
+        "y": 190.28978,
+        "z": 349.7208,
+        "normalized": {
+          "x": 0.56929934,
+          "y": 0.392935425,
+          "z": 0.7221496,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 484.2775,
+        "sqrMagnitude": 234524.688
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Objectives/Table_Apples/IH_Apple (1)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "InteractiveItem_6c6721bf20d3419abe84a27689781b98": {
+      "position": {
+        "x": 57.91474,
+        "y": 1.23911977,
+        "z": 2.19957018,
+        "normalized": {
+          "x": 0.9990512,
+          "y": 0.0213752855,
+          "z": 0.03794342,
+          "normalized": {
+            "x": 0.9990513,
+            "y": 0.0213752873,
+            "z": 0.0379434228,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 57.96974,
+        "sqrMagnitude": 3360.49072
+      },
+      "rotation": {
+        "x": 276.899963,
+        "y": 190.812927,
+        "z": 349.381042,
+        "normalized": {
+          "x": 0.571018457,
+          "y": 0.3934912,
+          "z": 0.7204877,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 484.922974,
+        "sqrMagnitude": 235150.281
+      },
+      "inv_id": 0,
+      "inv_amount": 1,
+      "weapon_id": 0,
+      "examined": false,
+      "customData": {
+        "data": {
+          "object_path": "Level/ShowcaseObjects/Objectives/Table_Apples/IH_Apple (2)",
+          "object_scene": "Showcase",
+          "CanUse": true,
+          "CanCombine": true
+        }
+      },
+      "stateDisable": false,
+      "floatingIcon": true
+    },
+    "DraggableObject_15b3f749aec547e3b4e2eec520f70c14": {
+      "position": {
+        "x": 62.262,
+        "y": 0.610820234,
+        "z": 13.095,
+        "normalized": {
+          "x": 0.9785452,
+          "y": 0.00959999952,
+          "z": 0.2058085,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 63.62711,
+        "sqrMagnitude": 4048.409
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": -6.834755E-05,
+        "z": 0.0,
+        "normalized": {
+          "x": 1.0,
+          "y": -2.531391E-07,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 270.0,
+        "sqrMagnitude": 72900.0
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "DraggableObject_a8c06ae7eda74285a48c062588856c3e": {
+      "position": {
+        "x": 61.688,
+        "y": 0.6108203,
+        "z": 11.2559986,
+        "normalized": {
+          "x": 0.983710766,
+          "y": 0.0097404765,
+          "z": 0.179494351,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 62.7094879,
+        "sqrMagnitude": 3932.48
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 29.9999733,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.9938837,
+          "y": 0.110431425,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 271.66156,
+        "sqrMagnitude": 73800.0
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "SaveObject_30ae6cc1426046888f858557c90ac0f7": {
+      "active_state": {
+        "renderer": true,
+        "activeSelf": true
+      },
+      "position": {
+        "x": 45.382,
+        "y": 0.366492122,
+        "z": 64.416,
+        "normalized": {
+          "x": 0.575930357,
+          "y": 0.00465104962,
+          "z": 0.8174856,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 78.79772,
+        "sqrMagnitude": 6209.08154
+      },
+      "angles": {
+        "x": 270.0,
+        "y": 104.999832,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.932004869,
+          "y": 0.362445742,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 289.698059,
+        "sqrMagnitude": 83924.96
+      }
+    },
+    "DraggableObject_ece228b5e2c0426196e5a128e63c94d1": {
+      "position": {
+        "x": 45.382,
+        "y": 0.366492122,
+        "z": 64.416,
+        "normalized": {
+          "x": 0.575930357,
+          "y": 0.00465104962,
+          "z": 0.8174856,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.00000012
+        },
+        "magnitude": 78.79772,
+        "sqrMagnitude": 6209.08154
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 104.999832,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.932004869,
+          "y": 0.362445742,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 289.698059,
+        "sqrMagnitude": 83924.96
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "SaveObject_ef264d980dc847d9bc37be6acb084d22": {
+      "active_state": {
+        "renderer": true,
+        "activeSelf": true
+      },
+      "position": {
+        "x": 46.80862,
+        "y": 0.6108203,
+        "z": 63.4377251,
+        "normalized": {
+          "x": 0.5937157,
+          "y": 0.007747581,
+          "z": 0.804637551,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 78.840126,
+        "sqrMagnitude": 6215.765
+      },
+      "angles": {
+        "x": 270.0,
+        "y": 71.61669,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.9665757,
+          "y": 0.2563813,
+          "z": 0.0,
+          "normalized": {
+            "x": 0.966575742,
+            "y": 0.256381333,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 279.336639,
+        "sqrMagnitude": 78028.95
+      }
+    },
+    "DraggableObject_e575380476cc429698fd2e5385158671": {
+      "position": {
+        "x": 46.80862,
+        "y": 0.6108203,
+        "z": 63.4377251,
+        "normalized": {
+          "x": 0.5937157,
+          "y": 0.007747581,
+          "z": 0.804637551,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 78.840126,
+        "sqrMagnitude": 6215.765
+      },
+      "rotation": {
+        "x": 270.0,
+        "y": 71.61669,
+        "z": 0.0,
+        "normalized": {
+          "x": 0.9665757,
+          "y": 0.2563813,
+          "z": 0.0,
+          "normalized": {
+            "x": 0.966575742,
+            "y": 0.256381333,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 279.336639,
+        "sqrMagnitude": 78028.95
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "SaveObject_c176db0302b841a3a3431c20546f9a85": {
+      "position": {
+        "x": 50.2,
+        "y": -2.7,
+        "z": 16.8000011,
+        "normalized": {
+          "x": 0.9470737,
+          "y": -0.0509382263,
+          "z": 0.31694898,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 53.00538,
+        "sqrMagnitude": 2809.57
+      }
+    },
+    "SaveObject_0870e386b9e84a1db500b58fde6f485e": {
+      "position": {
+        "x": 42.95,
+        "y": -2.7,
+        "z": 57.05,
+        "normalized": {
+          "x": 0.601025939,
+          "y": -0.03778277,
+          "z": 0.798335969,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 71.46114,
+        "sqrMagnitude": 5106.695
+      }
+    },
+    "TriggerHint_e0989ae827644de8b9f4e42b716be772": {
+      "enabled": true,
+      "isShown": true
+    },
+    "TriggerHint_9f33faac7ade454ab21f381e9620b839": {
+      "enabled": true,
+      "isShown": true
+    },
+    "SaveObject_82f8e3144a33480c90068619b0ebba93": {
+      "active_state": {
+        "renderer": true,
+        "activeSelf": true
+      }
+    },
+    "AmbienceZone_4adfc12635a34b89972dedb613734b02": {
+      "ZoneTriggered": true
+    },
+    "AmbienceZone_16da0bca7b0a45e4a78b864e4b966b46": {
+      "ZoneTriggered": false
+    },
+    "ZombieBehaviourAI_0fe18d0306a64571a4471b8136510ddd": {
+      "position": {
+        "x": 58.67157,
+        "y": 0.0433333,
+        "z": 52.7511978,
+        "normalized": {
+          "x": 0.7436293,
+          "y": 0.0005492253,
+          "z": 0.6685919,
+          "magnitude": 1.0,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 78.89895,
+        "sqrMagnitude": 6225.044
+      },
+      "rotation_y": 286.553223,
+      "sleep_behaviour": 3,
+      "agony_set": true,
+      "hunger_set": false,
+      "scream": false,
+      "awake": true,
+      "idle": false,
+      "npc_dead": true,
+      "scream_time": 0.0,
+      "agony_time": 0.0,
+      "hunger_time": 80.0,
+      "last_waypoint": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      }
+    },
+    "ZombieBehaviourAI_e641fdc7609c4073960061911aad7230": {
+      "position": {
+        "x": 42.39361,
+        "y": 0.04333338,
+        "z": 71.68344,
+        "normalized": {
+          "x": 0.509042561,
+          "y": 0.0005203269,
+          "z": 0.860741138,
+          "normalized": {
+            "x": 0.5090426,
+            "y": 0.000520326954,
+            "z": 0.8607412,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 83.28107,
+        "sqrMagnitude": 6935.736
+      },
+      "rotation_y": 307.724976,
+      "sleep_behaviour": 3,
+      "agony_set": false,
+      "hunger_set": false,
+      "scream": false,
+      "awake": true,
+      "idle": false,
+      "npc_dead": true,
+      "scream_time": 0.0,
+      "agony_time": 58.465786,
+      "hunger_time": 24.0390854,
+      "last_waypoint": {
+        "x": 51.86,
+        "y": 0.0,
+        "z": 70.04,
+        "normalized": {
+          "x": 0.5950684,
+          "y": 0.0,
+          "z": 0.803675056,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 87.14965,
+        "sqrMagnitude": 7595.06152
+      }
+    },
+    "BreakableObject_9fe0f5ebe25146ce9134902f5654eea6": {
+      "breakable_health": 5.0,
+      "is_broken": false
+    },
+    "DraggableObject_3b408ce625be4d4293e8cbe0df42fbdb": {
+      "position": {
+        "x": 45.4,
+        "y": 0.1913337,
+        "z": 63.0,
+        "normalized": {
+          "x": 0.5846422,
+          "y": 0.002463915,
+          "z": 0.8112875,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 77.65434,
+        "sqrMagnitude": 6030.197
+      },
+      "rotation": {
+        "x": 9.973172E-06,
+        "y": 74.9999,
+        "z": -6.03166E-06,
+        "normalized": {
+          "x": 1.32975813E-07,
+          "y": 1.0,
+          "z": -8.042224E-08,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 74.9999,
+        "sqrMagnitude": 5624.98535
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "BreakableObject_0d77107c5c6d4540ab2f4dbf32fe8c27": {
+      "breakable_health": 5.0,
+      "is_broken": false
+    },
+    "DraggableObject_165a3e10c6fa419cb62a54613c735662": {
+      "position": {
+        "x": 40.95,
+        "y": 0.191333711,
+        "z": 60.95,
+        "normalized": {
+          "x": 0.557680368,
+          "y": 0.002605691,
+          "z": 0.8300517,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 73.42916,
+        "sqrMagnitude": 5391.842
+      },
+      "rotation": {
+        "x": 4.95972721E-08,
+        "y": 164.99971,
+        "z": 2.85920958E-08,
+        "normalized": {
+          "x": 3.00590053E-10,
+          "y": 1.0,
+          "z": 1.73285733E-10,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 164.99971,
+        "sqrMagnitude": 27224.9043
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "BreakableObject_7f28d8f3126749f2a23a7466b89483a1": {
+      "breakable_health": 5.0,
+      "is_broken": false
+    },
+    "DraggableObject_c74caaf6eba04d198d7d276071deaa36": {
+      "position": {
+        "x": 48.603,
+        "y": 4.950475,
+        "z": 45.843,
+        "normalized": {
+          "x": 0.725471258,
+          "y": 0.07389312,
+          "z": 0.6842742,
+          "normalized": {
+            "x": 0.7254713,
+            "y": 0.07389313,
+            "z": 0.684274256,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 66.99507,
+        "sqrMagnitude": 4488.33936
+      },
+      "rotation": {
+        "x": -5.37353753E-06,
+        "y": 134.999832,
+        "z": 1.09451946E-06,
+        "normalized": {
+          "x": -3.98040321E-08,
+          "y": 1.0,
+          "z": 8.107562E-09,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 134.999832,
+        "sqrMagnitude": 18224.9551
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "BreakableObject_cd4154ca33b442339619a03920b0e5b5": {
+      "breakable_health": 5.0,
+      "is_broken": false
+    },
+    "DraggableObject_473d200e4a9e47ac9efcad7fd247657d": {
+      "position": {
+        "x": 41.79012,
+        "y": 0.0004761964,
+        "z": 17.7612553,
+        "normalized": {
+          "x": 0.9203273,
+          "y": 1.0487086E-05,
+          "z": 0.391149133,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 45.4078865,
+        "sqrMagnitude": 2061.87622
+      },
+      "rotation": {
+        "x": -6.732531E-08,
+        "y": 341.305542,
+        "z": 1.99970145E-07,
+        "normalized": {
+          "x": -1.97258182E-10,
+          "y": 1.0,
+          "z": 5.858977E-10,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 341.305542,
+        "sqrMagnitude": 116489.477
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "BreakableObject_c3f96368056448a5a7bb0ba6345cd33d": {
+      "breakable_health": 5.0,
+      "is_broken": false
+    },
+    "DraggableObject_dc69debe32a84e0a9ee65cc72dd7165a": {
+      "position": {
+        "x": 43.7869873,
+        "y": 0.191333666,
+        "z": 17.6309547,
+        "normalized": {
+          "x": 0.927618,
+          "y": 0.004053363,
+          "z": 0.373508036,
+          "normalized": {
+            "x": 0.9276181,
+            "y": 0.00405336358,
+            "z": 0.373508066,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.9999999
+        },
+        "magnitude": 47.2036819,
+        "sqrMagnitude": 2228.1875
+      },
+      "rotation": {
+        "x": -4.75029527E-09,
+        "y": 284.9997,
+        "z": 9.17194853E-08,
+        "normalized": {
+          "x": -1.6667721E-11,
+          "y": 1.0,
+          "z": 3.218231E-10,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 284.9997,
+        "sqrMagnitude": 81224.83
+      },
+      "isPlayed": false,
+      "rigidbody_kinematic": false,
+      "rigidbody_gravity": true,
+      "rigidbody_freeze": false
+    },
+    "Electricity_569c24def20e45aab2a4818c3ef701eb": {
+      "isPoweredOn": false
+    },
+    "TriggerObjective_d0b64cfb65ea4977bea4a4eb40f599ba": {
+      "isTriggered": true
+    },
+    "TriggerObjective_3a89684f184d46c8b83fcbfc8c9f1563": {
+      "isTriggered": true
+    },
+    "TriggerObjective_d728c19d2de94532a91ab4c214d90fdd": {
+      "isTriggered": true
+    },
+    "TriggerObjective_dff49fe94de44a868913995eb17a3944": {
+      "isTriggered": true
+    },
+    "TriggerObjective_b5b4b5115d91428ea80ec42bf3c031ab": {
+      "isTriggered": true
+    },
+    "TriggerObjective_0b8880c70a9c4a808fb543eb11ecf654": {
+      "isTriggered": true
+    },
+    "TriggerObjective_da4fc27a1f6f4e779153673f9538cff5": {
+      "isTriggered": true
+    },
+    "TriggerObjective_e9cc4570012c44d792007eddcdfe5d0b": {
+      "isTriggered": true
+    },
+    "TriggerObjective_e8af9032118448fbacf842a0531d5693": {
+      "isTriggered": true
+    },
+    "AnimationPlayEvent_058b70249faa45db961ce4c2bc2c6478": {
+      "isPlayed": true
+    },
+    "AnimationPlayEvent_e5d0d91ae5524b4a8c1bb4b16c14a598": {
+      "isPlayed": true
+    },
+    "AnimationPlayEvent_24a341c7acc540fcb77fb289451c4517": {
+      "isPlayed": false
+    },
+    "JumpscareTrigger_64b260f0b3a6493a99f0249015339e50": {
+      "isPlayed": true
+    },
+    "TriggerObjective_70e7a439b3754d39a1ff32ca40cfe8dd": {
+      "isTriggered": true
+    },
+    "TriggerObjective_044ed90c6d9a4321821f80a57d61cb60": {
+      "isTriggered": true
+    },
+    "CutsceneTrigger_ef7dbc601908449191de83ef4151b44e": {
+      "isTriggered": true
+    },
+    "ObjectSpawner_b4fad906b11b4e07985001b09047b5e3": {
+      "isSpawned": false
+    },
+    "ObjectSpawner_a7346a9ecc1d48ad9f24f7358e43b33d": {
+      "isSpawned": false
+    }
+  },
+  "runtime_saveablesData": {
+    "RS_Zombie_293371ace46e424986cbd7cd74c00329": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_8acfc474db324b029ea732cb01b2203a": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 44.39199,
+              "y": 0.0433333,
+              "z": 68.4761353,
+              "normalized": {
+                "x": 0.5439757,
+                "y": 0.0005310026,
+                "z": 0.8391008,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 81.60657,
+              "sqrMagnitude": 6659.632
+            },
+            "rotation_y": 79.87062,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_df0c023067a24517b27e7eddff7503db": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_fc8ccd6ce46643faa8e3805362c061c2": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 42.97762,
+              "y": 0.0433333,
+              "z": 66.69134,
+              "normalized": {
+                "x": 0.5416902,
+                "y": 0.0005461732,
+                "z": 0.8405781,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 79.33985,
+              "sqrMagnitude": 6294.812
+            },
+            "rotation_y": 225.128265,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_ac6810506b1f4cc597f26b5a46a1c5a0": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_06d9798c46e24832a0a980bd6107250b": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 46.8838234,
+              "y": 0.0433333,
+              "z": 70.72114,
+              "normalized": {
+                "x": 0.5525475,
+                "y": 0.000510702957,
+                "z": 0.833481252,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 84.8503,
+              "sqrMagnitude": 7199.574
+            },
+            "rotation_y": 231.030273,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_b9686607eced4ba99464ef0347f34f8a": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_2ba77b29128446f19b3ad1b8c265fa7b": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 50.2059,
+              "y": 0.0433333,
+              "z": 74.32148,
+              "normalized": {
+                "x": 0.5597707,
+                "y": 0.000483144657,
+                "z": 0.8286474,
+                "magnitude": 1.0,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 89.69012,
+              "sqrMagnitude": 8044.31641
+            },
+            "rotation_y": 312.867523,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_47f7092858a744be8edcf518ec479a3e": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_6e6c0474f8454243b53088c254e45f1c": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 48.10057,
+              "y": 0.0433333,
+              "z": 68.49543,
+              "normalized": {
+                "x": 0.574694633,
+                "y": 0.000517736364,
+                "z": 0.8183677,
+                "normalized": {
+                  "x": 0.5746947,
+                  "y": 0.0005177364,
+                  "z": 0.8183678,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 83.69762,
+              "sqrMagnitude": 7005.29053
+            },
+            "rotation_y": 173.939987,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_f131dabae2ac4c209e8cff4f10ad781f": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_a555d1ce5ea2406aac3047931324acfd": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 58.58776,
+              "y": 0.0433333,
+              "z": 64.41518,
+              "normalized": {
+                "x": 0.672852,
+                "y": 0.0004976619,
+                "z": 0.739776969,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 87.07378,
+              "sqrMagnitude": 7581.843
+            },
+            "rotation_y": 223.04892,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_9c7792ba3b70403fa94e1234c4d10482": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_890b0091951f4b94b0acdacc86eb7b17": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 43.01159,
+              "y": 0.0433333,
+              "z": 68.39417,
+              "normalized": {
+                "x": 0.532357454,
+                "y": 0.0005363393,
+                "z": 0.8465195,
+                "magnitude": 1.0,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 80.79456,
+              "sqrMagnitude": 6527.76172
+            },
+            "rotation_y": 72.9027252,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_ed7bdbf2a4c443fb897eac07f48f9337": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_96f34464d71f4d34a1867d6a0b550a3b": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 53.763916,
+              "y": 0.0433333,
+              "z": 71.646286,
+              "normalized": {
+                "x": 0.6002085,
+                "y": 0.000483763433,
+                "z": 0.7998434,
+                "normalized": {
+                  "x": 0.6002086,
+                  "y": 0.000483763462,
+                  "z": 0.799843431,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 89.57539,
+              "sqrMagnitude": 8023.751
+            },
+            "rotation_y": 73.27646,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_24bf2d17ec744f20b8f6f373168d72dd": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_8c5fe537b9a2435fa8621e1468273586": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 42.8612328,
+              "y": 0.0433333,
+              "z": 74.49162,
+              "normalized": {
+                "x": 0.498720676,
+                "y": 0.0005042135,
+                "z": 0.8667626,
+                "normalized": {
+                  "x": 0.4987207,
+                  "y": 0.00050421356,
+                  "z": 0.866762638,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 85.94236,
+              "sqrMagnitude": 7386.089
+            },
+            "rotation_y": 17.9274082,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_2ca57753c771447ead6f8207ca4ac630": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_7a1c3d33340941f6bb528f3dba3faec4": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 43.5686646,
+              "y": 0.0433333,
+              "z": 70.9939957,
+              "normalized": {
+                "x": 0.523052454,
+                "y": 0.000520226837,
+                "z": 0.8523003,
+                "normalized": {
+                  "x": 0.5230525,
+                  "y": 0.0005202269,
+                  "z": 0.852300346,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.00000012
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.99999994
+              },
+              "magnitude": 83.29693,
+              "sqrMagnitude": 6938.378
+            },
+            "rotation_y": 291.156738,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_BreakableCrate1_f70bdda59aaf41c6b3292e2493cd6fd6": {
+      "prefabPath": "84b75246edcfeff4cb41ac75517610a1",
+      "runtimeData": {
+        "BreakableObject_ea9ba83913644d238247b8162217587a": {
+          "block_type": 0,
+          "block_data": {
+            "breakable_health": 5.0,
+            "is_broken": false
+          }
+        },
+        "DraggableObject_1f85861ead674731ba470acc1218bac5": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 42.13,
+              "y": 0.0004761666,
+              "z": 52.06,
+              "normalized": {
+                "x": 0.6290737,
+                "y": 7.10999E-06,
+                "z": 0.7773457,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 66.97149,
+              "sqrMagnitude": 4485.18066
+            },
+            "rotation": {
+              "x": 5.448326E-07,
+              "y": 90.0002,
+              "z": -6.75947661E-07,
+              "normalized": {
+                "x": 6.053682E-09,
+                "y": 1.0,
+                "z": -7.510513E-09,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 90.0002,
+              "sqrMagnitude": 8100.03564
+            },
+            "isPlayed": false,
+            "rigidbody_kinematic": false,
+            "rigidbody_gravity": true,
+            "rigidbody_freeze": false
+          }
+        }
+      }
+    },
+    "RS_Zombie_1cdf66f856a048ce8902c2b3ed0ee3b0": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_87485e52f0e44689a92f3df9fc120b86": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 46.5148964,
+              "y": 0.0433333,
+              "z": 68.7228241,
+              "normalized": {
+                "x": 0.5605236,
+                "y": 0.000522184069,
+                "z": 0.8281383,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 82.98472,
+              "sqrMagnitude": 6886.464
+            },
+            "rotation_y": 81.37482,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_e5f9b8ec2862480ca0228e17db9ded14": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_92e89f1a52f44f87bb0ffc28bf178362": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 45.6747856,
+              "y": 0.0433333,
+              "z": 69.34493,
+              "normalized": {
+                "x": 0.5500628,
+                "y": 0.0005218642,
+                "z": 0.835123062,
+                "normalized": {
+                  "x": 0.550062835,
+                  "y": 0.0005218643,
+                  "z": 0.8351231,
+                  "magnitude": 1.0,
+                  "sqrMagnitude": 1.0
+                },
+                "magnitude": 0.99999994,
+                "sqrMagnitude": 0.9999999
+              },
+              "magnitude": 83.03558,
+              "sqrMagnitude": 6894.90771
+            },
+            "rotation_y": 233.557465,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    },
+    "RS_Zombie_30f16dc8b7d146668fa0c6d945e482b7": {
+      "prefabPath": "5d675c0351f90bc42bc7a51c418ff668",
+      "runtimeData": {
+        "ZombieBehaviourAI_a338eaeabea94796bcc70a2cbb829d8f": {
+          "block_type": 0,
+          "block_data": {
+            "position": {
+              "x": 46.1324654,
+              "y": 0.0433333,
+              "z": 70.90479,
+              "normalized": {
+                "x": 0.5453568,
+                "y": 0.000512266357,
+                "z": 0.838203847,
+                "magnitude": 1.0,
+                "sqrMagnitude": 1.0
+              },
+              "magnitude": 84.59135,
+              "sqrMagnitude": 7155.696
+            },
+            "rotation_y": 200.3433,
+            "sleep_behaviour": 3,
+            "agony_set": true,
+            "hunger_set": false,
+            "scream": false,
+            "awake": true,
+            "idle": false,
+            "npc_dead": true,
+            "scream_time": 0.0,
+            "agony_time": 0.0,
+            "hunger_time": 80.0,
+            "last_waypoint": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0,
+              "magnitude": 0.0,
+              "sqrMagnitude": 0.0
+            }
+          }
+        }
+      }
+    }
+  }
+}
